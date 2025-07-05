@@ -4,9 +4,9 @@ join (
     select product_id, min(year) as first_year
     from sales
     group by product_id
-) t
-on 
-s.product_id = t.product_id
+) p
+on
+s.product_id = p.product_id
 and 
-t.first_year = s.year
+s.year = p.first_year
 order by s.product_id;
