@@ -34,4 +34,5 @@
 | [1182-game-play-analysis-iv](https://github.com/viru9192/Leetcode-Practice/tree/master/1182-game-play-analysis-iv) |
 | [1258-article-views-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1258-article-views-i) |
 | [1268-market-analysis-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1268-market-analysis-i) |
+| [1301-reformat-department-table](https://github.com/viru9192/Leetcode-Practice/tree/master/1301-reformat-department-table) |
 <!---LeetCode Topics End-->
