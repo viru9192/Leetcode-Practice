@@ -38,4 +38,5 @@
 | [1268-market-analysis-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1268-market-analysis-i) |
 | [1301-reformat-department-table](https://github.com/viru9192/Leetcode-Practice/tree/master/1301-reformat-department-table) |
 | [1317-monthly-transactions-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1317-monthly-transactions-i) |
+| [1415-students-and-examinations](https://github.com/viru9192/Leetcode-Practice/tree/master/1415-students-and-examinations) |
 <!---LeetCode Topics End-->
