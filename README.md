@@ -43,4 +43,5 @@
 | [1415-students-and-examinations](https://github.com/viru9192/Leetcode-Practice/tree/master/1415-students-and-examinations) |
 | [1462-list-the-products-ordered-in-a-period](https://github.com/viru9192/Leetcode-Practice/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1541-top-travellers](https://github.com/viru9192/Leetcode-Practice/tree/master/1541-top-travellers) |
+| [1625-group-sold-products-by-the-date](https://github.com/viru9192/Leetcode-Practice/tree/master/1625-group-sold-products-by-the-date) |
 <!---LeetCode Topics End-->
