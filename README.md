@@ -55,4 +55,5 @@
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1734-bank-account-summary-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/1734-bank-account-summary-ii) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/viru9192/Leetcode-Practice/tree/master/1773-percentage-of-users-attended-a-contest) |
+| [1801-average-time-of-process-per-machine](https://github.com/viru9192/Leetcode-Practice/tree/master/1801-average-time-of-process-per-machine) |
 <!---LeetCode Topics End-->
