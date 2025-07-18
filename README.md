@@ -60,4 +60,5 @@
 | [1801-average-time-of-process-per-machine](https://github.com/viru9192/Leetcode-Practice/tree/master/1801-average-time-of-process-per-machine) |
 | [1811-fix-names-in-a-table](https://github.com/viru9192/Leetcode-Practice/tree/master/1811-fix-names-in-a-table) |
 | [1827-invalid-tweets](https://github.com/viru9192/Leetcode-Practice/tree/master/1827-invalid-tweets) |
+| [1837-daily-leads-and-partners](https://github.com/viru9192/Leetcode-Practice/tree/master/1837-daily-leads-and-partners) |
 <!---LeetCode Topics End-->
