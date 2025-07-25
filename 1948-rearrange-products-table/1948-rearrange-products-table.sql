@@ -1,15 +1,15 @@
-SELECT product_id, 'store1' AS store, store1 AS price
-FROM Products
-WHERE store1 IS NOT NULL
+select product_id, 'store1' as store, store1 as price 
+from products 
+where store1 is not null
 
-UNION ALL
+union all
 
-SELECT product_id, 'store2', store2
-FROM Products
-WHERE store2 IS NOT NULL
+select product_id, 'store2', store2
+from products 
+where store2 is not null
 
-UNION ALL
+union all
 
-SELECT product_id, 'store3', store3
-FROM Products
-WHERE store3 IS NOT NULL;
+select product_id, 'store3', store3
+from products 
+where store3 is not null;
