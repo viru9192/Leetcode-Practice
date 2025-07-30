@@ -1,23 +1,17 @@
-WITH
-  RankedScores AS (
-    SELECT
-      student_id,
-      subject,
-      score,
-      exam_date,
-      RANK() OVER (PARTITION BY student_id, subject ORDER BY exam_date) AS rn_asc,
-      RANK() OVER (PARTITION BY student_id, subject ORDER BY exam_date DESC) AS rn_desc
+SELECT DISTINCT student_id, subject, first_score, latest_score
+FROM (
+    SELECT 
+        student_id,
+        subject,
+        FIRST_VALUE(score) OVER (
+            PARTITION BY student_id, subject 
+            ORDER BY exam_date
+        ) AS first_score,
+        FIRST_VALUE(score) OVER (
+            PARTITION BY student_id, subject 
+            ORDER BY exam_date DESC
+        ) AS latest_score
     FROM Scores
-  ),
-  FirstLastScores AS (
-    SELECT
-      student_id,
-      subject,
-      MIN(CASE WHEN rn_asc = 1 THEN score END) AS first_score,
-      MAX(CASE WHEN rn_desc = 1 THEN score END) AS latest_score
-    FROM RankedScores GROUP BY 1, 2
-    HAVING COUNT(*) > 1
-  )
-SELECT student_id, subject, first_score, latest_score
-FROM FirstLastScores
-WHERE latest_score > first_score;
+) t
+WHERE latest_score > first_score
+ORDER BY student_id, subject;
