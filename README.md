@@ -84,5 +84,6 @@
 | [3782-find-valid-emails](https://github.com/viru9192/Leetcode-Practice/tree/master/3782-find-valid-emails) |
 | [3803-find-products-with-valid-serial-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/3803-find-products-with-valid-serial-numbers) |
 | [3816-dna-pattern-recognition](https://github.com/viru9192/Leetcode-Practice/tree/master/3816-dna-pattern-recognition) |
+| [3848-analyze-subscription-conversion](https://github.com/viru9192/Leetcode-Practice/tree/master/3848-analyze-subscription-conversion) |
 | [3910-find-books-with-no-available-copies](https://github.com/viru9192/Leetcode-Practice/tree/master/3910-find-books-with-no-available-copies) |
 <!---LeetCode Topics End-->
