@@ -1,49 +1,31 @@
-WITH season_sales AS (
-    SELECT 
-        CASE 
-            WHEN MONTH(s.sale_date) IN (12, 1, 2) THEN 'Winter'
-            WHEN MONTH(s.sale_date) BETWEEN 3 AND 5 THEN 'Spring'
-            WHEN MONTH(s.sale_date) BETWEEN 6 AND 8 THEN 'Summer'
-            WHEN MONTH(s.sale_date) BETWEEN 9 AND 11 THEN 'Fall'
-        END AS season,
+with season_sales as (
+    select 
+        case 
+            when month(s.sale_date) in (12,1,2) then 'Winter'
+            when month(s.sale_date) between 3 and 5 then 'Spring'
+            when month(s.sale_date) between 6 and 8 then 'Summer'
+            else 'Fall'
+        end as season,
         p.category,
-        SUM(s.quantity) AS total_quantity,
-        SUM(s.quantity * s.price) AS total_revenue
-    FROM sales s
-    JOIN products p 
-        ON s.product_id = p.product_id
-    GROUP BY 
-        CASE 
-            WHEN MONTH(s.sale_date) IN (12, 1, 2) THEN 'Winter'
-            WHEN MONTH(s.sale_date) BETWEEN 3 AND 5 THEN 'Spring'
-            WHEN MONTH(s.sale_date) BETWEEN 6 AND 8 THEN 'Summer'
-            WHEN MONTH(s.sale_date) BETWEEN 9 AND 11 THEN 'Fall'
-        END,
-        p.category
-),
-ranked_sales AS (
-    SELECT 
-        season,
-        category,
-        total_quantity,
-        total_revenue,
-        ROW_NUMBER() OVER (
-            PARTITION BY season
-            ORDER BY total_quantity DESC, total_revenue DESC
-        ) AS rn
-    FROM season_sales
+        sum(s.quantity) as total_quantity,
+        sum(s.quantity*s.price) as total_revenue
+    from sales s
+    join products p on s.product_id = p.product_id
+    group by season, p.category
 )
-SELECT 
-    season,
-    category,
-    total_quantity,
-    total_revenue
-FROM ranked_sales
-WHERE rn = 1
-ORDER BY 
-    CASE season
-        WHEN 'Fall'   THEN 1
-        WHEN 'Spring' THEN 2
-        WHEN 'Summer' THEN 3
-        WHEN 'Winter' THEN 4
-    END;
+select season, category, total_quantity, total_revenue
+from (
+    select *,
+           row_number() over (
+               partition by season
+               order by total_quantity desc, total_revenue desc
+           ) as rn
+    from season_sales
+) t
+where rn = 1
+order by case season
+            when 'Fall' then 1
+            when 'Spring' then 2
+            when 'Summer' then 3
+            when 'Winter' then 4
+         end;
