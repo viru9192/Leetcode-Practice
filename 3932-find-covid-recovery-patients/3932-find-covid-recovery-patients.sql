@@ -1,35 +1,36 @@
-WITH positives AS (
-    SELECT 
-        patient_id,
-        test_date AS pos_date,
-        ROW_NUMBER() OVER (PARTITION BY patient_id ORDER BY test_date) AS rn
-    FROM covid_tests
-    WHERE result = 'Positive'
+with posit as (
+    select 
+    patient_id,
+    test_date as pos,
+    row_number() over (partition by patient_id order by test_date) as rn
+    from covid_tests
+    where result = 'Positive'
 ),
-negatives AS (
-    SELECT 
-        patient_id,
-        test_date AS neg_date
-    FROM covid_tests
-    WHERE result = 'Negative'
+negat as (
+    select
+    patient_id,
+    test_date as neg
+    from covid_tests
+    where result = 'Negative'
 ),
-paired AS (
-    SELECT 
-        p.patient_id,
-        p.pos_date,
-        MIN(n.neg_date) AS first_neg_date
-    FROM positives p
-    JOIN negatives n
-      ON p.patient_id = n.patient_id
-     AND n.neg_date > p.pos_date
-    WHERE p.rn = 1   -- only the first positive per patient
-    GROUP BY p.patient_id, p.pos_date
+pair as (
+    select 
+    p.patient_id,
+    p.pos,
+    min(n.neg) as first_neg
+    from posit p
+    join negat n
+    on p.patient_id = n.patient_id
+    and n.neg > p.pos
+    where rn = 1
+    group by p.patient_id, p.pos
 )
-SELECT 
-    pt.patient_id,
-    pt.patient_name,
-    pt.age,
-    DATEDIFF(pr.first_neg_date, pr.pos_date) AS recovery_time
-FROM paired pr
-JOIN patients pt ON pt.patient_id = pr.patient_id
-ORDER BY recovery_time ASC, pt.patient_name ASC;
+select 
+pt.patient_id,
+pt.patient_name,
+pt.age,
+datediff(pr.first_neg, pr.pos) as recovery_time
+from patients pt
+join pair pr
+on pt.patient_id = pr.patient_id
+order by recovery_time asc, pt.patient_name asc;
