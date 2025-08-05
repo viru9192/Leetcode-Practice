@@ -90,4 +90,5 @@
 | [3910-find-books-with-no-available-copies](https://github.com/viru9192/Leetcode-Practice/tree/master/3910-find-books-with-no-available-copies) |
 | [3921-find-consistently-improving-employees](https://github.com/viru9192/Leetcode-Practice/tree/master/3921-find-consistently-improving-employees) |
 | [3932-find-covid-recovery-patients](https://github.com/viru9192/Leetcode-Practice/tree/master/3932-find-covid-recovery-patients) |
+| [3942-find-drivers-with-improved-fuel-efficiency](https://github.com/viru9192/Leetcode-Practice/tree/master/3942-find-drivers-with-improved-fuel-efficiency) |
 <!---LeetCode Topics End-->
