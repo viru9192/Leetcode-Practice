@@ -1,28 +1,27 @@
-WITH cte AS (
-    SELECT 
-        *, 
-        distance_km / fuel_consumed AS fuel_efficiency
-    FROM trips
+with cte as (
+    select 
+    *,
+    (distance_km / fuel_consumed) as fuel_efficiency
+    from trips
 ),
-cte2 AS (
-    SELECT 
-        c.driver_id, 
-        d.driver_name, 
-        AVG(CASE WHEN MONTH(trip_date) BETWEEN 1 AND 6 
-                 THEN fuel_efficiency END) AS first_half_avg,
-        AVG(CASE WHEN MONTH(trip_date) BETWEEN 7 AND 12 
-                 THEN fuel_efficiency END) AS second_half_avg
-    FROM cte AS c
-    LEFT JOIN drivers AS d
-        ON c.driver_id = d.driver_id
-    GROUP BY c.driver_id, d.driver_name
+cte2 as (
+    select 
+    c.driver_id,
+    d.driver_name,
+    avg(case when month(trip_date) between 1 and 6 then c.fuel_efficiency end) as first_half_avg,
+    avg(case when month(trip_date) between 7 and 12 then c.fuel_efficiency end) as second_half_avg
+    from cte c
+    left join drivers d
+    on
+    c.driver_id = d.driver_id
+    group by c.driver_id, d.driver_name
 )
-SELECT 
-    driver_id, 
-    driver_name, 
-    ROUND(first_half_avg, 2) AS first_half_avg,
-    ROUND(second_half_avg, 2) AS second_half_avg,
-    ROUND((second_half_avg - first_half_avg), 2) AS efficiency_improvement
-FROM cte2
-WHERE second_half_avg > first_half_avg
-ORDER BY efficiency_improvement DESC, driver_name;
+select 
+driver_id,
+driver_name,
+round(first_half_avg, 2) as first_half_avg,
+round(second_half_avg, 2) as second_half_avg,
+round((second_half_avg - first_half_avg), 2) as efficiency_improvement
+from cte2
+where second_half_avg > first_half_avg
+order by efficiency_improvement desc, driver_name asc;
