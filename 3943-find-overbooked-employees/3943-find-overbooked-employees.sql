@@ -1,31 +1,34 @@
-WITH meeting_weeks AS (
-  SELECT
+with meet_w as (
+    select 
     m.employee_id,
-    DATE_SUB(m.meeting_date, INTERVAL WEEKDAY(m.meeting_date) DAY) AS week_start,
-    SUM(m.duration_hours) AS total_weekly_meeting_hours
-  FROM meetings m
-  GROUP BY m.employee_id, DATE_SUB(m.meeting_date, INTERVAL WEEKDAY(m.meeting_date) DAY)
+    date_sub(m.meeting_date, interval weekday(m.meeting_date) day) as week_start,
+    sum(m.duration_hours) as meet_hour
+    from meetings m
+    group by m.employee_id,
+    date_sub(m.meeting_date, interval weekday(m.meeting_date) day)
 ),
-meeting_heavy_weeks AS (
-  SELECT
+meet_heavy as (
+    select 
     employee_id,
     week_start
-  FROM meeting_weeks
-  WHERE total_weekly_meeting_hours > 20
+    from meet_w
+    where meet_hour > 20
+
 ),
-meeting_heavy_counts AS (
-  SELECT
+meet_count as (
+    select 
     employee_id,
-    COUNT(*) AS meeting_heavy_weeks
-  FROM meeting_heavy_weeks
-  GROUP BY employee_id
-  HAVING COUNT(*) >= 2
+    count(*) as meet_h
+    from meet_heavy
+    group by employee_id
+    having count(*) >= 2
 )
-SELECT
-  e.employee_id,
-  e.employee_name,
-  e.department,
-  mhc.meeting_heavy_weeks
-FROM meeting_heavy_counts mhc
-JOIN employees e ON e.employee_id = mhc.employee_id
-ORDER BY mhc.meeting_heavy_weeks DESC, e.employee_name ASC;
+select 
+e.employee_id,
+e.employee_name,
+e.department,
+mc.meet_h as meeting_heavy_weeks
+from meet_count mc
+join employees e
+on mc.employee_id = e.employee_id
+order by meeting_heavy_weeks desc, e.employee_name asc;
