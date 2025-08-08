@@ -16,6 +16,7 @@
 | [0185-department-top-three-salaries](https://github.com/viru9192/Leetcode-Practice/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/viru9192/Leetcode-Practice/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/viru9192/Leetcode-Practice/tree/master/0197-rising-temperature) |
+| [0262-trips-and-users](https://github.com/viru9192/Leetcode-Practice/tree/master/0262-trips-and-users) |
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/viru9192/Leetcode-Practice/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0577-employee-bonus](https://github.com/viru9192/Leetcode-Practice/tree/master/0577-employee-bonus) |
 | [0584-find-customer-referee](https://github.com/viru9192/Leetcode-Practice/tree/master/0584-find-customer-referee) |
