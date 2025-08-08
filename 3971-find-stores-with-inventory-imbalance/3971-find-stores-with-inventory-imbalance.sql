@@ -1,53 +1,49 @@
-with store_prod_counts as (
-  select
-    i.store_id,
-    count(distinct i.product_name) as product_cnt
-  from inventory i
-  group by i.store_id
+with store_c as (
+    select i.store_id,
+    count(distinct i.product_name) as product_count
+    from inventory i 
+    group by i.store_id
 ),
-ranked as (
-  select
+rank_s as (
+    select 
     i.store_id,
     i.product_name,
     i.quantity,
     i.price,
-    row_number() over (
-      partition by i.store_id
-      order by i.price desc, i.product_name asc
-    ) as rn_max_price,
-    row_number() over (
-      partition by i.store_id
-      order by i.price asc, i.product_name asc
-    ) as rn_min_price
-  from inventory i
+    row_number() over (partition by i.store_id order by i.price desc, i.product_name asc) as max_price_rank,
+    row_number() over (partition by i.store_id order by i.price asc, i.product_name asc) as min_price_rank
+    from inventory i
+
 ),
-most_exp as (
-  select
+exp_product as (
+    select 
     store_id,
-    product_name as most_exp_product,
-    quantity    as most_exp_qty
-  from ranked
-  where rn_max_price = 1
+    product_name as most_exp_p,
+    quantity as most_exp_q
+    from rank_s
+    where max_price_rank = 1
 ),
-cheapest as (
-  select
+cheap_product as (
+   select 
     store_id,
-    product_name as cheapest_product,
-    quantity    as cheapest_qty
-  from ranked
-  where rn_min_price = 1
+    product_name as min_exp_p,
+    quantity as min_exp_q
+    from rank_s
+    where min_price_rank = 1 
 )
-select
-  s.store_id,
-  s.store_name,
-  s.location,
-  me.most_exp_product,
-  ch.cheapest_product,
-  round(ch.cheapest_qty * 1.0 / me.most_exp_qty, 2) as imbalance_ratio
+select 
+s.store_id,
+s.store_name,
+s.location,
+ep.most_exp_p as most_exp_product,
+cp.min_exp_p as cheapest_product,
+round((cp.min_exp_q * 1.0 / ep.most_exp_q), 2) as imbalance_ratio
 from stores s
-join store_prod_counts c on c.store_id = s.store_id and c.product_cnt >= 3
-join most_exp me         on me.store_id = s.store_id
-join cheapest ch         on ch.store_id = s.store_id
-where me.most_exp_qty < ch.cheapest_qty
-  and me.most_exp_qty > 0
+join store_c sc 
+on sc.store_id = s.store_id and sc.product_count >= 3
+join exp_product ep
+on ep.store_id = s.store_id
+join cheap_product cp
+on cp.store_id = s.store_id
+where ep.most_exp_q < cp.min_exp_q and ep.most_exp_q > 0
 order by imbalance_ratio desc, s.store_name asc;
