@@ -82,6 +82,7 @@
 | [2127-employees-whose-manager-left-the-company](https://github.com/viru9192/Leetcode-Practice/tree/master/2127-employees-whose-manager-left-the-company) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/viru9192/Leetcode-Practice/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 | [3530-odd-and-even-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/3530-odd-and-even-transactions) |
+| [3711-first-letter-capitalization-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/3711-first-letter-capitalization-ii) |
 | [3767-find-students-who-improved](https://github.com/viru9192/Leetcode-Practice/tree/master/3767-find-students-who-improved) |
 | [3782-find-valid-emails](https://github.com/viru9192/Leetcode-Practice/tree/master/3782-find-valid-emails) |
 | [3803-find-products-with-valid-serial-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/3803-find-products-with-valid-serial-numbers) |
