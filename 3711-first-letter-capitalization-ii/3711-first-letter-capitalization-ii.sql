@@ -1,67 +1,58 @@
-WITH RECURSIVE
--- Build positions 1..len for every row
-temp1 AS (
-  SELECT
+with recursive
+temp1 as (
+  select
     content_id,
     content_text,
-    CHAR_LENGTH(content_text) AS len,
-    1 AS id
-  FROM user_content
-  UNION ALL
-  SELECT
+    char_length(content_text) as len,
+    1 as id
+  from user_content
+  union all
+  select
     content_id,
     content_text,
     len,
     id + 1
-  FROM temp1
-  WHERE id < len
+  from temp1
+  where id < len
 ),
-
--- Grab the character at each position
-temp2 AS (
-  SELECT
+temp2 as (
+  select
     content_id,
     content_text,
     len,
     id,
-    SUBSTRING(content_text, id, 1) AS text
-  FROM temp1
+    substring(content_text, id, 1) as text
+  from temp1
 ),
-
--- Previous character (NULL for first char)
-temp3 AS (
-  SELECT
+temp3 as (
+  select
     content_id,
     content_text,
     len,
     id,
-    LAG(text) OVER (PARTITION BY content_id ORDER BY id) AS prev,
+    lag(text) over (partition by content_id order by id) as prev,
     text
-  FROM temp2
+  from temp2
 ),
-
--- Apply casing rules per the screenshot
-temp4 AS (
-  SELECT
+temp4 as (
+  select
     content_id,
     id,
     content_text,
     len,
     prev,
-    CASE
-      WHEN prev IS NULL OR prev = ' ' OR prev = '-'                 THEN UPPER(text)
-      WHEN (prev BETWEEN 'A' AND 'Z' OR prev BETWEEN 'a' AND 'z')
-           AND text BETWEEN 'A' AND 'Z'                              THEN LOWER(text)
-      ELSE text
-    END AS next
-  FROM temp3
+    case
+      when prev is null or prev = ' ' or prev = '-' then upper(text)
+      when (prev between 'a' and 'z' or prev between 'A' and 'Z')
+           and text between 'A' and 'Z' then lower(text)
+      else text
+    end as next
+  from temp3
 )
-
--- Reassemble the string
-SELECT
+select
   content_id,
-  content_text AS original_text,
-  GROUP_CONCAT(next ORDER BY id SEPARATOR '') AS converted_text
-FROM temp4
-GROUP BY content_id, content_text
-ORDER BY content_id;
+  content_text as original_text,
+  group_concat(next order by id separator '') as converted_text
+from temp4
+group by content_id, content_text
+order by content_id;
