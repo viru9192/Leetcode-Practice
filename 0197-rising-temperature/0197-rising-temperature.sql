@@ -1,7 +1,6 @@
-select w1.id as Id
+select 
+w1.id
 from weather w1
 join weather w2
-on
-date(w1.recordDate) = date_add(date(w2.recordDate), interval 1 day)
-where 
-w1.temperature > w2.temperature;
+on datediff(w1.recorddate, w2.recorddate) = 1
+and w1.temperature > w2.temperature;
