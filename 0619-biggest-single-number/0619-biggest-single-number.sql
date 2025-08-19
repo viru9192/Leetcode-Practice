@@ -1,8 +1,9 @@
-select (
-    select num
-    from MyNumbers
+select(
+    select 
+    num
+    from mynumbers
     group by num
     having count(*) = 1
-    order by num desc 
+    order by num desc
     limit 1
 ) as num;
