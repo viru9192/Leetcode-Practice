@@ -1,6 +1,10 @@
-select x, y, z, 
-case 
-    when (x + y <= z) or (y + z <= x) or (x + z <= y) then 'No'
-    else 'Yes'
-end as triangle
+select 
+x,
+y,
+z,
+(
+    case when x + y > z and y + z > x and z + x > y then 'Yes'
+    else 'No' 
+    end
+) as triangle
 from triangle;
