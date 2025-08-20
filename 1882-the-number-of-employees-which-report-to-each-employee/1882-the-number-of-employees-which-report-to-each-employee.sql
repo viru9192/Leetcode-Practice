@@ -1,4 +1,6 @@
-select e.employee_id, e.name,
+select 
+e.employee_id,
+e.name,
 count(r.employee_id) as reports_count,
 round(avg(r.age)) as average_age
 from employees e
