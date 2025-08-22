@@ -1,15 +1,20 @@
-with dept_r as (
-    select d.name as Department,
+with top_three as (
+    select 
+    d.name as Department,
     e.name as Employee,
-    e.salary,
-    dense_rank() over(partition by departmentid order by salary desc) as rnk
+    e.salary as Salary,
+    dense_rank() over(
+        partition by departmentId order by salary desc
+    ) as rnk
     from employee e
     join department d
     on 
-    e.departmentid = d.id
+    e.departmentId = d.id
 )
-select Department,
-Employee, Salary
-from dept_r
+select 
+Department,
+Employee,
+Salary 
+from top_three
 where rnk <= 3
 order by Department asc, Salary desc;
