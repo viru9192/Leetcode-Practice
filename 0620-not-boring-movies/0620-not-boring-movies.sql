@@ -1,6 +1,6 @@
 select *
 from cinema
-where 
+where
 id % 2 = 1
 and 
 description != 'boring'
