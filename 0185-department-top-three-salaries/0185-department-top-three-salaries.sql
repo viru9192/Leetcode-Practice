@@ -1,5 +1,5 @@
 with top_three as (
-    select 
+    select
     d.name as Department,
     e.name as Employee,
     e.salary as Salary,
@@ -8,13 +8,12 @@ with top_three as (
     ) as rnk
     from employee e
     join department d
-    on 
-    e.departmentId = d.id
+    on e.departmentId = d.id
 )
-select 
+select
 Department,
 Employee,
-Salary 
+Salary
 from top_three
 where rnk <= 3
-order by Department asc, Salary desc;
+order by Department asc, salary desc;
