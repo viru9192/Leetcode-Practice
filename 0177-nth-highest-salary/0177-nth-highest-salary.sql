@@ -1,12 +1,12 @@
-CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
-BEGIN
-  RETURN (
-     select max(salary) 
-     from employee e1
-     where (n - 1) = (
-        select count(distinct(e2.salary))
-        from employee e2
-        where e2.salary > e1.salary
-     )
-  );
-END
+create function getNthHighestSalary(n int) returns int
+begin return (
+    select max(salary)
+    from employee e
+    where (n-1) = (
+        select 
+        count(distinct(e1.salary)) 
+        from employee e1
+        where e1.salary > e.salary
+    )
+);
+end
