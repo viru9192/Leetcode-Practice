@@ -7,5 +7,5 @@ where sales_id not in (
     from orders o
     join company c
     on o.com_id = c.com_id
-    and c.name = 'RED'
+    where c.name = 'RED'
 );
