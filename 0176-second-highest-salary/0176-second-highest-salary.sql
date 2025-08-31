@@ -6,5 +6,4 @@ salary < (
     select 
     max(salary)
     from employee
-)
-order by salary desc;
+);
