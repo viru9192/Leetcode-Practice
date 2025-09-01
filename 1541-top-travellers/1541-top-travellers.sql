@@ -1,6 +1,6 @@
 select
 u.name,
-coalesce(
+coalesce (
     sum(r.distance), 0
 ) as travelled_distance
 from users u
