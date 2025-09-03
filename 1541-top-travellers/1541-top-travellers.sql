@@ -1,4 +1,4 @@
-select
+select 
 u.name,
 coalesce (
     sum(r.distance), 0
@@ -6,5 +6,5 @@ coalesce (
 from users u
 left join rides r
 on u.id = r.user_id
-group by u.id, u.name
+group by u.id
 order by travelled_distance desc, u.name asc;
