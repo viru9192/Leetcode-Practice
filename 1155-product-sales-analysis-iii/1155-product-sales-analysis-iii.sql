@@ -1,18 +1,17 @@
-select 
+select
 s.product_id,
 s.year as first_year,
 s.quantity,
 s.price
 from sales s
 join (
-    select
+    select 
     product_id,
-    min(year) as first_year,
+    min(year) as first_y,
     quantity,
     price
     from sales
     group by product_id
-) p
-on s.product_id = p.product_id
-and s.year = p.first_year
-order by s.year asc;
+) as fp
+on s.product_id = fp.product_id
+and s.year = fp.first_y;
