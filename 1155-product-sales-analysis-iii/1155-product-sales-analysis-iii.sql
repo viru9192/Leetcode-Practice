@@ -7,9 +7,7 @@ from sales s
 join (
     select 
     product_id,
-    min(year) as first_y,
-    quantity,
-    price
+    min(year) as first_y
     from sales
     group by product_id
 ) as fp
