@@ -1,19 +1,21 @@
-select 
+select
 visited_on,
 round(
-    sum(amount) over (
+    sum(amount) over(
+        order by visited_on
         rows between 6 preceding and current row
     ), 2
 ) as amount,
 round(
-    avg(amount) over (
+    avg(amount) over(
+        order by visited_on
         rows between 6 preceding and current row
     ), 2
 ) as average_amount
 from (
-    select
-    sum(amount) as amount,
-    visited_on
+    select 
+    visited_on,
+    sum(amount) as amount
     from customer
     group by visited_on
 ) as t
