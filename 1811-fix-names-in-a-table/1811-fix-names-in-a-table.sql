@@ -1,9 +1,10 @@
-select 
+select
 user_id,
 concat(
     upper(
         left(name, 1)
-    ), lower(
+    ),
+    lower(
         substring(
             name, 2, length(name)
         )
