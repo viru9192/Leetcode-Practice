@@ -1,5 +1,5 @@
-select(
-    select 
+select (
+    select
     num
     from mynumbers
     group by num
