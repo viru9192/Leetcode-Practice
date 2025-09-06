@@ -1,5 +1,5 @@
 select
-max(distinct salary) as SecondHighestSalary
+max(salary) as SecondHighestSalary
 from 
 employee
 where 
