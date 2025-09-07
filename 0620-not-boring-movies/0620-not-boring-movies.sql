@@ -1,5 +1,5 @@
 select *
-from cinema
+from cinema 
 where
 id % 2 = 1
 and 
