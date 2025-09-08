@@ -1,9 +1,7 @@
-select 
+select
 a.machine_id,
 round(
-    avg(
-        b.timestamp - a.timestamp 
-    ), 3
+    avg(b.timestamp - a.timestamp), 3
 ) as processing_time
 from activity a
 join activity b
