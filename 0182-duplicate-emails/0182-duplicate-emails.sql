@@ -1,7 +1,6 @@
 select
-distinct p.email as Email
-from person p
-left join person p1
-on p.id != p1.id
-where
-p.email = p1.email;
+distinct p1.email as Email
+from person p1
+left join person p2
+on p1.id != p2.id 
+where p1.email = p2.email;
