@@ -5,7 +5,7 @@ begin return (
     from employee e
     where 
     (n - 1) = (
-        select
+        select 
         count(distinct e1.salary)
         from employee e1
         where e1.salary > e.salary
