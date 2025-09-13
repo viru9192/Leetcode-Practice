@@ -7,9 +7,9 @@ from sales s
 join (
     select 
     product_id,
-    min(year) as first_y
+    min(year) as f_year
     from sales
     group by product_id
-) as fp
-on s.product_id = fp.product_id
-and s.year = fp.first_y;
+) as fy
+on s.product_id = fy.product_id
+and s.year = fy.f_year;
