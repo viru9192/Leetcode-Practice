@@ -12,4 +12,4 @@ join (
     group by product_id
 ) as fy
 on s.product_id = fy.product_id
-and s.year = fy.f_year;
+where s.year = fy.f_year;
