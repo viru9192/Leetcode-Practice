@@ -11,11 +11,11 @@ round(
     ), 2
 ) as average_amount
 from (
-    select
+    select 
     visited_on,
     sum(amount) as amount
     from customer
     group by visited_on
-) as t
-order by visited_on
+) as cs
+order by visited_on asc
 limit 100 offset 6;
