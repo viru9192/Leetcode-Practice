@@ -95,4 +95,8 @@
 | [3932-find-covid-recovery-patients](https://github.com/viru9192/Leetcode-Practice/tree/master/3932-find-covid-recovery-patients) |
 | [3942-find-drivers-with-improved-fuel-efficiency](https://github.com/viru9192/Leetcode-Practice/tree/master/3942-find-drivers-with-improved-fuel-efficiency) |
 | [3943-find-overbooked-employees](https://github.com/viru9192/Leetcode-Practice/tree/master/3943-find-overbooked-employees) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
