@@ -1,5 +1,5 @@
 select results from (
-    select
+    select 
     u.name as results
     from users u
     join movierating mr
@@ -7,7 +7,7 @@ select results from (
     group by u.user_id
     order by count(*) desc, u.name asc
     limit 1
-) as top_users
+) as user_r
 
 union all
 
@@ -17,9 +17,8 @@ select results from (
     from movies m
     join movierating mr
     on m.movie_id = mr.movie_id
-    where 
-    year(created_at) = '2020' and month(created_at) = '02'
+    where year(mr.created_at) = 2020 and month(mr.created_at) = 02
     group by m.movie_id
     order by avg(mr.rating) desc, m.title asc
     limit 1
-) as top_movies;
+) as movie_r;
