@@ -1,4 +1,4 @@
-select
+select 
 date_id,
 make_name,
 count(distinct lead_id) as unique_leads,
