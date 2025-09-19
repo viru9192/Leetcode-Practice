@@ -1,11 +1,12 @@
 select
-s.product_id,
+s.product_id, 
 s.year as first_year,
 s.quantity,
 s.price
 from sales s
 join (
-    select 
+    select
+    sale_id,
     product_id,
     min(year) as f_year
     from sales
