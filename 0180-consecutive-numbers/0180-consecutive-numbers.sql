@@ -1,4 +1,4 @@
-select 
+select
 distinct l1.num as ConsecutiveNums
 from logs l1
 join logs l2
