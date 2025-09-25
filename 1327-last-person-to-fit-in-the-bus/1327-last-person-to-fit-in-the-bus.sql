@@ -1,12 +1,13 @@
-select 
+select
 person_name
 from (
     select
-    person_id,
     person_name,
-    sum(weight) over(order by turn) as cumm_weight
+    sum(weight) over(
+        order by turn
+    ) as cumm_weight
     from queue
-) q
+) as wp
 where cumm_weight <= 1000
 order by cumm_weight desc
 limit 1;
