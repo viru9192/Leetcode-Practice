@@ -7,7 +7,7 @@ from (
         order by turn
     ) as cumm_weight
     from queue
-) as wp
+) as cw
 where cumm_weight <= 1000
 order by cumm_weight desc
 limit 1;
