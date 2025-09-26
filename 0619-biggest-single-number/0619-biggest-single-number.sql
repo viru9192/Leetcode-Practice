@@ -1,7 +1,7 @@
-select(
-    select 
+select (
+    select
     num
-    from mynumbers
+    from myNumbers
     group by num
     having count(*) = 1
     order by num desc
