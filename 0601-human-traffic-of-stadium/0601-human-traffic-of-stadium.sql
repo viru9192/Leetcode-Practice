@@ -1,17 +1,18 @@
-with elig as (
-    select 
+with consec as (
+    select
     id,
     visit_date,
     people,
-    id - row_number() over(order by id) as grp
+    id - row_number() over(
+        order by id 
+    ) as grp
     from stadium
-    where
-    people >= 100
+    where people >= 100
 ),
-big_grp as (
+consec_grp as (
     select 
-    grp
-    from elig
+    grp 
+    from consec
     group by grp
     having count(*) >= 3
 )
@@ -19,8 +20,10 @@ select
 id,
 visit_date,
 people
-from elig
+from consec
 where grp in (
-    select grp from big_grp
+    select
+    grp 
+    from consec_grp
 )
-order by visit_date asc;
+order by visit_date;
