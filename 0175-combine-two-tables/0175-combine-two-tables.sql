@@ -1,6 +1,6 @@
 select
-p.firstName,
-p.lastName,
+p.firstname,
+p.lastname,
 a.city,
 a.state
 from person p
