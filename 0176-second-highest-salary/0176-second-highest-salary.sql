@@ -4,6 +4,6 @@ from employee
 where 
 salary < (
     select
-    max(e.salary) as m_salary
-    from employee e
+    max(salary) as salary
+    from employee
 );
