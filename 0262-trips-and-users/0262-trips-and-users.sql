@@ -1,9 +1,9 @@
 select
-t.request_at as Day,
+t.request_at as 'Day',
 round(
     sum(
         case when t.status in ('cancelled_by_driver', 'cancelled_by_client') then 1 else 0 end
-    ) * 1.0 / count(*), 2
+    ) / count(*), 2
 ) as 'Cancellation Rate'
 from trips t
 join users u
