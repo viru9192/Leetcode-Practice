@@ -1,6 +1,7 @@
-update salary 
+update 
+salary 
 set sex = (
-    case 
+    case
     when sex = 'm' then 'f'
     when sex = 'f' then 'm'
     else sex
