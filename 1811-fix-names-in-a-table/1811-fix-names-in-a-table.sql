@@ -3,12 +3,11 @@ user_id,
 concat(
     upper(
         left(name, 1)
-    ), 
-    lower(
+    ), lower(
         substring(
             name, 2, length(name)
         )
     )
-) as name
+) as name 
 from users
 order by user_id;
