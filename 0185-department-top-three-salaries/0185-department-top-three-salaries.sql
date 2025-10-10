@@ -5,12 +5,12 @@ with top3 as (
     salary,
     departmentid,
     dense_rank() over(
-        partition by departmentid 
+        partition by departmentid
         order by salary desc
     ) as rnk
     from employee
 )
-select
+select 
 d.name as Department,
 t.name as Employee,
 t.salary as Salary
