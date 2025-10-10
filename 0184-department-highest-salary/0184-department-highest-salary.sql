@@ -1,13 +1,13 @@
 select
 d.name as Department,
 e.name as Employee,
-e.salary as Salary
+e.salary as Salary 
 from employee e
-join Department d
-on e.departmentid = d.id
+join department d
+on e.departmentid = d.id 
 where e.salary = (
-    select
+    select 
     max(e1.salary) as salary
     from employee e1
-    where e1.departmentid = e.departmentid
+    where e.departmentid = e1.departmentid
 );
