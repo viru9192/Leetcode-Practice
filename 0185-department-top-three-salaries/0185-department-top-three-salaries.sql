@@ -1,5 +1,5 @@
 with top3 as (
-    select 
+    select
     id,
     name,
     salary,
@@ -17,4 +17,4 @@ t.salary as Salary
 from top3 t
 join department d
 on t.departmentid = d.id
-where t.rnk <= 3;
+where rnk <= 3;
