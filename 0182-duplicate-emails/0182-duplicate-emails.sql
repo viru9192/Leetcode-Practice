@@ -1,5 +1,5 @@
-select 
+select
 email as Email
-from person
+from person 
 group by email
 having count(*) > 1;
