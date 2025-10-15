@@ -1,4 +1,4 @@
-select 
+select
 actor_id,
 director_id
 from actordirector
