@@ -1,4 +1,4 @@
-select
+select 
 u.user_id as buyer_id,
 u.join_date,
 count(o.order_id) as orders_in_2019
