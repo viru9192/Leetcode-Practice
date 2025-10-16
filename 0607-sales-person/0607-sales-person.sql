@@ -1,4 +1,4 @@
-select 
+select
 s.name
 from salesperson s
 where s.sales_id not in (
