@@ -1,6 +1,6 @@
 select
 round(
-    count(a.player_id) /
+    count(distinct a.player_id) /
     (
         select
         count(distinct player_id)
