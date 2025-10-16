@@ -1,20 +1,20 @@
 select
 round(
-    count(distinct a.player_id) /
+    count(a.player_id) /
     (
-        select 
+        select
         count(distinct player_id)
         from activity
-    ), 2
+    ), 2 
 ) as fraction
 from activity a
 join (
-    select
+    select 
     player_id,
-    min(event_date) as first_ld
+    min(event_date) as first_l
     from activity
     group by player_id
-) as first_log
-on a.player_id = first_log.player_id
-where
-datediff(a.event_date, first_log.first_ld) = 1;
+) as first_event
+on a.player_id = first_event.player_id
+where 
+datediff(a.event_date, first_event.first_l) = 1;
