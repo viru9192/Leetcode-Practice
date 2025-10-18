@@ -2,19 +2,19 @@ select
 round(
     count(distinct a.player_id) /
     (
-        select
+        select 
         count(distinct player_id)
         from activity
-    ), 2 
+    ), 2
 ) as fraction
 from activity a
 join (
-    select 
+    select
     player_id,
-    min(event_date) as first_l
+    min(event_date) as f_login
     from activity
     group by player_id
-) as first_event
-on a.player_id = first_event.player_id
+) as ft
+on a.player_id = ft.player_id
 where 
-datediff(a.event_date, first_event.first_l) = 1;
+datediff(a.event_date, ft.f_login) = 1;
