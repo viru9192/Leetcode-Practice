@@ -1,4 +1,4 @@
-select
+select 
 d.name as Department,
 e.name as Employee,
 e.salary as Salary
