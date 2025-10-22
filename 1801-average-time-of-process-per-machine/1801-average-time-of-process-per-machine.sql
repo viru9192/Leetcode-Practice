@@ -8,5 +8,6 @@ round(
 from activity a
 join activity b
 on a.machine_id = b.machine_id
-where b.activity_type = 'end' and a.activity_type = 'start'
+and a.activity_type = 'start' 
+and b.activity_type = 'end'
 group by a.machine_id;
