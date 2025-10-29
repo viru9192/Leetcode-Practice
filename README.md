@@ -99,6 +99,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Hash Table
 |  |
 | ------- |
@@ -111,4 +112,8 @@
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 <!---LeetCode Topics End-->
