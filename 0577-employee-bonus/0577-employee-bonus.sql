@@ -1,4 +1,4 @@
-select 
+select
 e.name,
 b.bonus
 from employee e
