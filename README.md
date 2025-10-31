@@ -99,11 +99,13 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Hash Table
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## String
 |  |
 | ------- |
@@ -116,4 +118,8 @@
 |  |
 | ------- |
 | [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
+## Array
+|  |
+| ------- |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 <!---LeetCode Topics End-->
