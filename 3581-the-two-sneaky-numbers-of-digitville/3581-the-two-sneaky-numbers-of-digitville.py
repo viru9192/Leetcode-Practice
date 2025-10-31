@@ -1,10 +1,10 @@
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
-        lnum = set()
-        dup_num = []
+        l = set()
+        num = []
         for n in nums:
-            if n in lnum:
-                dup_num.append(n)
+            if n in l:
+                num.append(n)
             else:
-                lnum.add(n)
-        return dup_num
+                l.add(n)
+        return num
