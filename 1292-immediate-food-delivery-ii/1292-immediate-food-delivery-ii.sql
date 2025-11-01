@@ -1,21 +1,20 @@
 select
 round(
     sum(
-        case when customer_pref_delivery_date = order_date then 1
-        else 0 end
+        case when customer_pref_delivery_date = order_date then 1 else 0 end
     ) * 100 / count(*), 2
 ) as immediate_percentage
 from (
-    select d.*
+    select 
+    d.*
     from delivery d
     join (
-        select 
-        delivery_id,
+        select
         customer_id,
         min(order_date) as f_order
-        from delivery 
+        from delivery
         group by customer_id
-    ) as f_del
-    on d.customer_id = f_del.customer_id
-    and d.order_date = f_del.f_order
+    ) as fo
+    on d.customer_id = fo.customer_id
+    and d.order_date = fo.f_order
 ) as o;
