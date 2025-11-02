@@ -1,21 +1,21 @@
 select
 'Low Salary' as category,
-count(*) as accounts_count
+count(account_id) as accounts_count
 from accounts
-where income < '20000'
+where income < 20000
 
-union all
+union
 
 select
 'Average Salary' as category,
-count(*) as accounts_count
+count(account_id) as accounts_count
 from accounts
-where income between '20000' and '50000'
+where income between 20000 and 50000
 
-union all
+union 
 
 select
 'High Salary' as category,
-count(*) as accounts_count
+count(account_id) as accounts_count
 from accounts
-where income > '50000';
+where income > 50000;
