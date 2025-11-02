@@ -1,8 +1,9 @@
-select 
+select
 distinct p.product_id,
-coalesce (
+coalesce(
     (
-        select new_price
+        select
+        new_price
         from products
         where product_id = p.product_id
         and change_date <= '2019-08-16'
