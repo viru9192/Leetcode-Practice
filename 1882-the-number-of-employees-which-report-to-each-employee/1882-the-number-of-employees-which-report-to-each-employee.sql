@@ -1,12 +1,12 @@
 select
-e.employee_id,
-e.name,
-count(r.employee_id) as reports_count,
+m.employee_id,
+m.name,
+count(distinct e.employee_id) as reports_count,
 round(
-    avg(r.age), 0
+    avg(e.age), 0
  ) as average_age
 from employees e
-join employees r
-on e.employee_id = r.reports_to
-group by e.employee_id, e.name
-order by e.employee_id;
+join employees m
+on e.reports_to = m.employee_id
+group by m.employee_id, m.name
+order by m.employee_id;
