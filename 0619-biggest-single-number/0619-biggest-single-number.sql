@@ -1,7 +1,7 @@
 select (
     select
     num
-    from myNumbers
+    from mynumbers 
     group by num
     having count(*) = 1
     order by num desc
