@@ -1,29 +1,33 @@
-WITH daily AS (
-  SELECT visited_on, SUM(amount) AS amount
-  FROM customer
-  GROUP BY visited_on
-),
-roll AS (
-  SELECT
+with daily as(
+    select
     visited_on,
-    SUM(amount) OVER (
-      ORDER BY visited_on
-      ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-    ) AS amount,
-    AVG(amount) OVER (
-      ORDER BY visited_on
-      ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-    ) AS avg_amount,
-    COUNT(*) OVER (
-      ORDER BY visited_on
-      ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-    ) AS cnt
-  FROM daily
+    sum(amount) as amount
+    from customer 
+    group by visited_on
+),
+moving as (
+    select
+    visited_on,
+    sum(amount) over(
+        order by visited_on
+        rows between 6 preceding and current row
+    ) as amount,
+    avg(amount) over(
+        order by visited_on
+        rows between 6 preceding and current row
+    ) as average_amt,
+    count(*) over(
+        order by visited_on
+        rows between 6 preceding and current row
+    ) as cnt
+    from daily
 )
-SELECT
-  visited_on,
-  amount,
-  ROUND(avg_amount, 2) AS average_amount
-FROM roll
-WHERE cnt = 7
-ORDER BY visited_on;
+select
+visited_on,
+amount,
+round(
+    average_amt, 2
+) as average_amount
+from moving
+where cnt = 7
+order by visited_on;
