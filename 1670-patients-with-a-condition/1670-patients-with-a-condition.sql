@@ -1,5 +1,6 @@
-SELECT patient_id,
-       patient_name,
-       conditions
-FROM patients
-WHERE conditions REGEXP '(^| )DIAB1';
+select
+patient_id,
+patient_name,
+conditions
+from patients
+where conditions regexp '(^| )DIAB1';
