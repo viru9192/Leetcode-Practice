@@ -1,5 +1,5 @@
-delete p2
-from person p1
-join person p2
-on p1.email = p2.email
-where p1.id < p2.id;
+delete p1
+from person p
+join person p1
+on p.email = p1.email
+where p.id < p1.id;
