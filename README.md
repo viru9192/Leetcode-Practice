@@ -99,11 +99,13 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -111,6 +113,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 ## Counting
 |  |
