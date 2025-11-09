@@ -100,6 +100,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
+| [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Hash Table
@@ -156,4 +157,8 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
+## Simulation
+|  |
+| ------- |
+| [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 <!---LeetCode Topics End-->
