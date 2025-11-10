@@ -111,6 +111,7 @@
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/viru9192/Leetcode-Practice/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## String
 |  |
 | ------- |
@@ -133,6 +134,7 @@
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/viru9192/Leetcode-Practice/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Linked List
 |  |
 | ------- |
@@ -161,4 +163,16 @@
 |  |
 | ------- |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
+## Stack
+|  |
+| ------- |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+## Greedy
+|  |
+| ------- |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+## Monotonic Stack
+|  |
+| ------- |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 <!---LeetCode Topics End-->
