@@ -118,6 +118,7 @@
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
+| [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 ## Counting
 |  |
@@ -132,6 +133,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
+| [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/viru9192/Leetcode-Practice/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -151,6 +153,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 ## Memoization
 |  |
