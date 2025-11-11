@@ -89,6 +89,7 @@
 | [3816-dna-pattern-recognition](https://github.com/viru9192/Leetcode-Practice/tree/master/3816-dna-pattern-recognition) |
 | [3848-analyze-subscription-conversion](https://github.com/viru9192/Leetcode-Practice/tree/master/3848-analyze-subscription-conversion) |
 | [3865-find-product-recommendation-pairs](https://github.com/viru9192/Leetcode-Practice/tree/master/3865-find-product-recommendation-pairs) |
+| [3891-find-category-recommendation-pairs](https://github.com/viru9192/Leetcode-Practice/tree/master/3891-find-category-recommendation-pairs) |
 | [3898-seasonal-sales-analysis](https://github.com/viru9192/Leetcode-Practice/tree/master/3898-seasonal-sales-analysis) |
 | [3910-find-books-with-no-available-copies](https://github.com/viru9192/Leetcode-Practice/tree/master/3910-find-books-with-no-available-copies) |
 | [3921-find-consistently-improving-employees](https://github.com/viru9192/Leetcode-Practice/tree/master/3921-find-consistently-improving-employees) |
