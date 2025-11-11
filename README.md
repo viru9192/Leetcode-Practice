@@ -117,6 +117,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
+| [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 ## Counting
 |  |
@@ -166,6 +167,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
 |  |
