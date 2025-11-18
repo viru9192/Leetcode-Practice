@@ -141,6 +141,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/viru9192/Leetcode-Practice/tree/master/0717-1-bit-and-2-bit-characters) |
 | [2625-increment-submatrices-by-one](https://github.com/viru9192/Leetcode-Practice/tree/master/2625-increment-submatrices-by-one) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/viru9192/Leetcode-Practice/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
