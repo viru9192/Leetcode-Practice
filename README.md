@@ -112,6 +112,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/viru9192/Leetcode-Practice/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -142,6 +143,7 @@
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/viru9192/Leetcode-Practice/tree/master/0717-1-bit-and-2-bit-characters) |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2625-increment-submatrices-by-one](https://github.com/viru9192/Leetcode-Practice/tree/master/2625-increment-submatrices-by-one) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/viru9192/Leetcode-Practice/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -176,6 +178,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 ## Stack
 |  |
@@ -203,4 +206,8 @@
 |  |
 | ------- |
 | [2625-increment-submatrices-by-one](https://github.com/viru9192/Leetcode-Practice/tree/master/2625-increment-submatrices-by-one) |
+## Sorting
+|  |
+| ------- |
+| [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 <!---LeetCode Topics End-->
