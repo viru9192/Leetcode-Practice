@@ -100,6 +100,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
@@ -153,6 +154,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sliding Window
 |  |
@@ -210,4 +212,8 @@
 |  |
 | ------- |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
