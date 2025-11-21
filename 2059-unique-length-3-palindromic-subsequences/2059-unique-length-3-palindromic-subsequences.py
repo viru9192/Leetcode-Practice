@@ -2,8 +2,6 @@ class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
         n = len(s)
         
-        # first[i] = first index where chr(i + 'a') appears
-        # last[i]  = last index where chr(i + 'a') appears
         first = [n] * 26
         last = [-1] * 26
         
@@ -14,10 +12,9 @@ class Solution:
         
         result = 0
         
-        # For each possible outer character c
         for c in range(26):
             if first[c] < last[c]:
-                # Collect distinct middle characters between first[c] and last[c]
+            
                 seen = set()
                 left = first[c] + 1
                 right = last[c]
