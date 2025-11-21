@@ -113,6 +113,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -126,6 +127,7 @@
 | [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/viru9192/Leetcode-Practice/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 ## Counting
 |  |
@@ -136,6 +138,7 @@
 |  |
 | ------- |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/viru9192/Leetcode-Practice/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Array
 |  |
@@ -207,6 +210,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2625-increment-submatrices-by-one](https://github.com/viru9192/Leetcode-Practice/tree/master/2625-increment-submatrices-by-one) |
 ## Sorting
 |  |
