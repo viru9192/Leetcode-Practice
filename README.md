@@ -37,6 +37,7 @@
 | [1070-product-sales-analysis-iii](https://github.com/viru9192/Leetcode-Practice/tree/master/1070-product-sales-analysis-iii) |
 | [1135-customers-who-bought-all-products](https://github.com/viru9192/Leetcode-Practice/tree/master/1135-customers-who-bought-all-products) |
 | [1136-actors-and-directors-who-cooperated-at-least-three-times](https://github.com/viru9192/Leetcode-Practice/tree/master/1136-actors-and-directors-who-cooperated-at-least-three-times) |
+| [1141-user-activity-for-the-past-30-days-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1141-user-activity-for-the-past-30-days-i) |
 | [1153-product-sales-analysis-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1153-product-sales-analysis-i) |
 | [1155-product-sales-analysis-iii](https://github.com/viru9192/Leetcode-Practice/tree/master/1155-product-sales-analysis-iii) |
 | [1161-project-employees-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1161-project-employees-i) |
