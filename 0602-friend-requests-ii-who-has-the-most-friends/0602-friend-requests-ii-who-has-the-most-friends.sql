@@ -13,8 +13,5 @@ select
 id,
 num
 from counts
-where num = (
-    select
-    max(num) as high
-    from counts
-);
+order by num desc 
+limit 1;
