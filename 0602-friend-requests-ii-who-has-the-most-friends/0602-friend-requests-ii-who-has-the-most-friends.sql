@@ -7,7 +7,7 @@ with counts as (
         union all
         select accepter_id as id from requestaccepted
     ) as friends
-group by id
+    group by id
 )
 select
 id,
