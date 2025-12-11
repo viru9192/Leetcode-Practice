@@ -17,5 +17,5 @@ from (
     from customer
     group by visited_on
 ) as cs
-order by visited_on asc
+order by visited_on
 limit 100 offset 6;
