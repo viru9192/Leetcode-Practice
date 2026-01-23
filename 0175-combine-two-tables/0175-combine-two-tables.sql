@@ -1,4 +1,4 @@
-select 
+select
 p.firstname,
 p.lastname,
 a.city,
