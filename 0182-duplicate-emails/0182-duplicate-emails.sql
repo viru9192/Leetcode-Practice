@@ -1,4 +1,4 @@
-select 
+select
 email as Email 
 from person 
 group by email
