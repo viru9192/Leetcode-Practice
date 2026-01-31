@@ -1,4 +1,4 @@
-select
+select 
 s.student_id,
 s.student_name,
 su.subject_name,
