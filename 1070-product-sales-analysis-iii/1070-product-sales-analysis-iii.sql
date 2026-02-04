@@ -1,16 +1,16 @@
 with fyear as (
     select 
     product_id,
-    min(year) as f_year
+    min(year) as fy
     from sales
     group by product_id
 )
-select
+select 
 f.product_id,
-f.f_year as first_year,
+f.fy as first_year,
 s.quantity,
 s.price
-from fyear f
-join sales s
-on f.product_id = s.product_id
-and f.f_year = s.year;
+from sales s
+join fyear f
+on s.product_id = f.product_id
+and f.fy = s.year;
