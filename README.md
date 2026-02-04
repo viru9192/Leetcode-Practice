@@ -88,6 +88,7 @@
 | [1734-bank-account-summary-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/1734-bank-account-summary-ii) |
 | [1757-recyclable-and-low-fat-products](https://github.com/viru9192/Leetcode-Practice/tree/master/1757-recyclable-and-low-fat-products) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/viru9192/Leetcode-Practice/tree/master/1773-percentage-of-users-attended-a-contest) |
+| [1789-primary-department-for-each-employee](https://github.com/viru9192/Leetcode-Practice/tree/master/1789-primary-department-for-each-employee) |
 | [1801-average-time-of-process-per-machine](https://github.com/viru9192/Leetcode-Practice/tree/master/1801-average-time-of-process-per-machine) |
 | [1811-fix-names-in-a-table](https://github.com/viru9192/Leetcode-Practice/tree/master/1811-fix-names-in-a-table) |
 | [1827-invalid-tweets](https://github.com/viru9192/Leetcode-Practice/tree/master/1827-invalid-tweets) |
