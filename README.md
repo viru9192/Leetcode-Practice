@@ -84,6 +84,7 @@
 | [1683-invalid-tweets](https://github.com/viru9192/Leetcode-Practice/tree/master/1683-invalid-tweets) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1729-find-followers-count](https://github.com/viru9192/Leetcode-Practice/tree/master/1729-find-followers-count) |
+| [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/viru9192/Leetcode-Practice/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1734-bank-account-summary-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/1734-bank-account-summary-ii) |
 | [1757-recyclable-and-low-fat-products](https://github.com/viru9192/Leetcode-Practice/tree/master/1757-recyclable-and-low-fat-products) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/viru9192/Leetcode-Practice/tree/master/1773-percentage-of-users-attended-a-contest) |
