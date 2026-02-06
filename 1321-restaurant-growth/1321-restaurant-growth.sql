@@ -11,7 +11,7 @@ round(
     ), 2
 ) as average_amount
 from (
-    select 
+    select
     visited_on,
     sum(amount) as amount
     from customer
