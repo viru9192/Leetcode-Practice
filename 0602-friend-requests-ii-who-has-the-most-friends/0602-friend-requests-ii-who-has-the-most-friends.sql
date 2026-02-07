@@ -3,15 +3,21 @@ with counts as (
     id,
     count(*) as num
     from (
-        select requester_id as id from requestaccepted
+        select
+        requester_id as id
+        from requestaccepted
+
         union all
-        select accepter_id as id from requestaccepted
+
+        select 
+        accepter_id as id
+        from requestaccepted
     ) as friends
     group by id
 )
-select
+select 
 id,
 num
 from counts
-order by num desc 
+order by num desc
 limit 1;
