@@ -1,8 +1,8 @@
 select 
 max(salary) as SecondHighestSalary
-from employee 
+from employee
 where salary < (
     select 
-    max(salary) as salary
+    max(salary)
     from employee
 );
