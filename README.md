@@ -76,6 +76,7 @@
 | [1480-movie-rating](https://github.com/viru9192/Leetcode-Practice/tree/master/1480-movie-rating) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/viru9192/Leetcode-Practice/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1523-capital-gainloss](https://github.com/viru9192/Leetcode-Practice/tree/master/1523-capital-gainloss) |
+| [1527-patients-with-a-condition](https://github.com/viru9192/Leetcode-Practice/tree/master/1527-patients-with-a-condition) |
 | [1541-top-travellers](https://github.com/viru9192/Leetcode-Practice/tree/master/1541-top-travellers) |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/1581-customer-who-visited-but-did-not-make-any-transactions) |
 | [1625-group-sold-products-by-the-date](https://github.com/viru9192/Leetcode-Practice/tree/master/1625-group-sold-products-by-the-date) |
