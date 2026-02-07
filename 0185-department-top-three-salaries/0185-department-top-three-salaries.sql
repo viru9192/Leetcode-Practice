@@ -14,4 +14,5 @@ t.salary as Salary
 from department d
 join top3 t
 on d.id = t.departmentid
-where t.rnk <= 3;
+where t.rnk <= 3
+order by d.name, t.name;
