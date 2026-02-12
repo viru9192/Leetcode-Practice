@@ -196,6 +196,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/viru9192/Leetcode-Practice/tree/master/0021-merge-two-sorted-lists) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/viru9192/Leetcode-Practice/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Sliding Window
 |  |
@@ -258,4 +259,5 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/viru9192/Leetcode-Practice/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
