@@ -141,6 +141,7 @@
 | [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
+| [0069-sqrtx](https://github.com/viru9192/Leetcode-Practice/tree/master/0069-sqrtx) |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/viru9192/Leetcode-Practice/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -260,4 +261,8 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/viru9192/Leetcode-Practice/tree/master/0021-merge-two-sorted-lists) |
+## Binary Search
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/viru9192/Leetcode-Practice/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
