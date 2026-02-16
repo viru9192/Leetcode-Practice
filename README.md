@@ -142,6 +142,7 @@
 | [0009-palindrome-number](https://github.com/viru9192/Leetcode-Practice/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [0069-sqrtx](https://github.com/viru9192/Leetcode-Practice/tree/master/0069-sqrtx) |
+| [0412-fizz-buzz](https://github.com/viru9192/Leetcode-Practice/tree/master/0412-fizz-buzz) |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/viru9192/Leetcode-Practice/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/viru9192/Leetcode-Practice/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -165,6 +166,7 @@
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
+| [0412-fizz-buzz](https://github.com/viru9192/Leetcode-Practice/tree/master/0412-fizz-buzz) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/viru9192/Leetcode-Practice/tree/master/1832-check-if-the-sentence-is-pangram) |
@@ -225,6 +227,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/viru9192/Leetcode-Practice/tree/master/0412-fizz-buzz) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/viru9192/Leetcode-Practice/tree/master/2288-count-operations-to-obtain-zero) |
 ## Stack
