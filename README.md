@@ -152,6 +152,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
+| [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/viru9192/Leetcode-Practice/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -189,6 +190,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
+| [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/viru9192/Leetcode-Practice/tree/master/0717-1-bit-and-2-bit-characters) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -261,6 +263,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Recursion
 |  |
