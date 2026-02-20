@@ -154,6 +154,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/viru9192/Leetcode-Practice/tree/master/0013-roman-to-integer) |
 | [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/viru9192/Leetcode-Practice/tree/master/0242-valid-anagram) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/viru9192/Leetcode-Practice/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/viru9192/Leetcode-Practice/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -169,6 +170,7 @@
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/viru9192/Leetcode-Practice/tree/master/0020-valid-parentheses) |
 | [0058-length-of-last-word](https://github.com/viru9192/Leetcode-Practice/tree/master/0058-length-of-last-word) |
+| [0242-valid-anagram](https://github.com/viru9192/Leetcode-Practice/tree/master/0242-valid-anagram) |
 | [0412-fizz-buzz](https://github.com/viru9192/Leetcode-Practice/tree/master/0412-fizz-buzz) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [1297-maximum-number-of-balloons](https://github.com/viru9192/Leetcode-Practice/tree/master/1297-maximum-number-of-balloons) |
@@ -265,6 +267,7 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/viru9192/Leetcode-Practice/tree/master/0242-valid-anagram) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
 ## Recursion
 |  |
