@@ -5,7 +5,7 @@ with polarised as (
     round (
         sum(
         case when session_rating >= 4 or session_rating <=2 then 1 else 0 end 
-    ) / count(*) , 2
+    ) * 1.0 / count(*) , 2
     ) as polarization_score
     from reading_sessions
     group by book_id
