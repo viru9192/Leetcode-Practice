@@ -1,5 +1,5 @@
 with top3 as (
-    select 
+    select
     e.*,
     dense_rank() over(
         partition by e.departmentid
@@ -7,12 +7,11 @@ with top3 as (
     ) as rnk
     from employee e
 )
-select 
+select
 d.name as Department,
 t.name as Employee,
 t.salary as Salary
-from department d
-join top3 t
-on d.id = t.departmentid
-where t.rnk <= 3
-order by d.name, t.name;
+from top3 t
+join department d
+on t.departmentid = d.id
+where t.rnk <= 3;
