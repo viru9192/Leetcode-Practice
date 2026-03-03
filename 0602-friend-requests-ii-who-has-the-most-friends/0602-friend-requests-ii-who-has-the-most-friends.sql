@@ -12,7 +12,7 @@ with counts as (
         select 
         accepter_id as id
         from requestaccepted
-    ) as friends
+    ) as f
     group by id
 )
 select 
