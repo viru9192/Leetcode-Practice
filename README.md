@@ -48,6 +48,7 @@
 | [1148-article-views-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1148-article-views-i) |
 | [1153-product-sales-analysis-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1153-product-sales-analysis-i) |
 | [1155-product-sales-analysis-iii](https://github.com/viru9192/Leetcode-Practice/tree/master/1155-product-sales-analysis-iii) |
+| [1158-market-analysis-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1158-market-analysis-i) |
 | [1161-project-employees-i](https://github.com/viru9192/Leetcode-Practice/tree/master/1161-project-employees-i) |
 | [1164-product-price-at-a-given-date](https://github.com/viru9192/Leetcode-Practice/tree/master/1164-product-price-at-a-given-date) |
 | [1174-sales-analysis-iii](https://github.com/viru9192/Leetcode-Practice/tree/master/1174-sales-analysis-iii) |
