@@ -3,17 +3,17 @@ date_format(trans_date, '%Y-%m') as 'month',
 country,
 count(*) as trans_count,
 sum(
-    case
+    case 
         when state = 'approved' then 1
         else 0
-    end
+        end
 ) as approved_count,
 sum(amount) as trans_total_amount,
 sum(
     case
         when state = 'approved' then amount
         else 0
-    end
+        end
 ) as approved_total_amount
 from transactions
 group by month, country;
