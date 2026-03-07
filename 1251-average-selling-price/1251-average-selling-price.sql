@@ -1,11 +1,8 @@
-select 
+select
 p.product_id,
 round(
     coalesce(
-        sum(p.price * u.units) /
-        nullif(
-            sum(u.units), 0
-        ), 0
+        sum(u.units * p.price) / sum(u.units), 0
     ), 2
 ) as average_price
 from prices p
