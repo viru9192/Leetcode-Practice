@@ -1,13 +1,13 @@
-select 
+select
 person_name
 from (
-    select 
+    select
     person_name,
     sum(weight) over(
         order by turn
     ) as cumm_weight
     from queue
-) cw
+) as c
 where cumm_weight <= 1000
 order by cumm_weight desc
 limit 1;
