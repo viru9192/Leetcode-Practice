@@ -1,4 +1,4 @@
-select
+select 
 visited_on,
 sum(amount) over(
     order by visited_on
@@ -16,6 +16,6 @@ from (
     sum(amount) as amount
     from customer
     group by visited_on
-) as cs
+) as t
 order by visited_on
 limit 100 offset 6;
