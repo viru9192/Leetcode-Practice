@@ -1,29 +1,29 @@
-with consec as(
-    select
+with consec as (
+    select 
     id,
-    people,
     visit_date,
+    people,
     id - row_number() over(
         order by id
     ) as grp
     from stadium
     where people >= 100
 ),
-consec_grp as(
-    select
+consec_grp as (
+    select 
     grp 
     from consec
     group by grp
-    having count(*) >= 3
+    having count(*) >=3
 )
-select
+select 
 id,
 visit_date,
 people
 from consec
 where grp in (
-    select 
+    select
     grp 
     from consec_grp
-)
-order by visit_date asc;
+) 
+order by visit_date;
