@@ -4,7 +4,9 @@ concat(
     upper(
         left(name, 1)
     ), lower(
-        substring(name, 2, length(name))
+        substring(
+            name, 2,length(name)
+        )
     )
 ) as name
 from users
