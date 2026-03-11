@@ -95,6 +95,7 @@
 | [1667-fix-names-in-a-table](https://github.com/viru9192/Leetcode-Practice/tree/master/1667-fix-names-in-a-table) |
 | [1670-patients-with-a-condition](https://github.com/viru9192/Leetcode-Practice/tree/master/1670-patients-with-a-condition) |
 | [1683-invalid-tweets](https://github.com/viru9192/Leetcode-Practice/tree/master/1683-invalid-tweets) |
+| [1693-daily-leads-and-partners](https://github.com/viru9192/Leetcode-Practice/tree/master/1693-daily-leads-and-partners) |
 | [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 | [1729-find-followers-count](https://github.com/viru9192/Leetcode-Practice/tree/master/1729-find-followers-count) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/viru9192/Leetcode-Practice/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
