@@ -112,6 +112,7 @@
 | [1873-calculate-special-bonus](https://github.com/viru9192/Leetcode-Practice/tree/master/1873-calculate-special-bonus) |
 | [1877-find-followers-count](https://github.com/viru9192/Leetcode-Practice/tree/master/1877-find-followers-count) |
 | [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/viru9192/Leetcode-Practice/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
+| [1890-the-latest-login-in-2020](https://github.com/viru9192/Leetcode-Practice/tree/master/1890-the-latest-login-in-2020) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/viru9192/Leetcode-Practice/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1907-count-salary-categories](https://github.com/viru9192/Leetcode-Practice/tree/master/1907-count-salary-categories) |
 | [1908-recyclable-and-low-fat-products](https://github.com/viru9192/Leetcode-Practice/tree/master/1908-recyclable-and-low-fat-products) |
