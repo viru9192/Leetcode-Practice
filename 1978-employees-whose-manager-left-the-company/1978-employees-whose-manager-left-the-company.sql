@@ -8,5 +8,4 @@ and manager_id not in (
     from employees
 ) 
 and manager_id is not null
-group by employee_id
 order by employee_id;
