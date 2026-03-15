@@ -134,6 +134,7 @@
 | [3436-find-valid-emails](https://github.com/viru9192/Leetcode-Practice/tree/master/3436-find-valid-emails) |
 | [3451-find-invalid-ip-addresses](https://github.com/viru9192/Leetcode-Practice/tree/master/3451-find-invalid-ip-addresses) |
 | [3465-find-products-with-valid-serial-numbers](https://github.com/viru9192/Leetcode-Practice/tree/master/3465-find-products-with-valid-serial-numbers) |
+| [3475-dna-pattern-recognition](https://github.com/viru9192/Leetcode-Practice/tree/master/3475-dna-pattern-recognition) |
 | [3482-analyze-organization-hierarchy](https://github.com/viru9192/Leetcode-Practice/tree/master/3482-analyze-organization-hierarchy) |
 | [3530-odd-and-even-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/3530-odd-and-even-transactions) |
 | [3711-first-letter-capitalization-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/3711-first-letter-capitalization-ii) |
