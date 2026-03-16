@@ -137,6 +137,7 @@
 | [3475-dna-pattern-recognition](https://github.com/viru9192/Leetcode-Practice/tree/master/3475-dna-pattern-recognition) |
 | [3482-analyze-organization-hierarchy](https://github.com/viru9192/Leetcode-Practice/tree/master/3482-analyze-organization-hierarchy) |
 | [3497-analyze-subscription-conversion](https://github.com/viru9192/Leetcode-Practice/tree/master/3497-analyze-subscription-conversion) |
+| [3521-find-product-recommendation-pairs](https://github.com/viru9192/Leetcode-Practice/tree/master/3521-find-product-recommendation-pairs) |
 | [3530-odd-and-even-transactions](https://github.com/viru9192/Leetcode-Practice/tree/master/3530-odd-and-even-transactions) |
 | [3711-first-letter-capitalization-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/3711-first-letter-capitalization-ii) |
 | [3767-find-students-who-improved](https://github.com/viru9192/Leetcode-Practice/tree/master/3767-find-students-who-improved) |
