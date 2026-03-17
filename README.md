@@ -215,6 +215,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0283-move-zeroes) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
 | [0717-1-bit-and-2-bit-characters](https://github.com/viru9192/Leetcode-Practice/tree/master/0717-1-bit-and-2-bit-characters) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/viru9192/Leetcode-Practice/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -300,4 +301,8 @@
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/viru9192/Leetcode-Practice/tree/master/0069-sqrtx) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
