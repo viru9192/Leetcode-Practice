@@ -142,6 +142,7 @@
 | [3554-find-category-recommendation-pairs](https://github.com/viru9192/Leetcode-Practice/tree/master/3554-find-category-recommendation-pairs) |
 | [3564-seasonal-sales-analysis](https://github.com/viru9192/Leetcode-Practice/tree/master/3564-seasonal-sales-analysis) |
 | [3570-find-books-with-no-available-copies](https://github.com/viru9192/Leetcode-Practice/tree/master/3570-find-books-with-no-available-copies) |
+| [3580-find-consistently-improving-employees](https://github.com/viru9192/Leetcode-Practice/tree/master/3580-find-consistently-improving-employees) |
 | [3711-first-letter-capitalization-ii](https://github.com/viru9192/Leetcode-Practice/tree/master/3711-first-letter-capitalization-ii) |
 | [3767-find-students-who-improved](https://github.com/viru9192/Leetcode-Practice/tree/master/3767-find-students-who-improved) |
 | [3782-find-valid-emails](https://github.com/viru9192/Leetcode-Practice/tree/master/3782-find-valid-emails) |
