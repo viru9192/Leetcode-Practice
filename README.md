@@ -220,6 +220,7 @@
 | [0001-two-sum](https://github.com/viru9192/Leetcode-Practice/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/viru9192/Leetcode-Practice/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/viru9192/Leetcode-Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/viru9192/Leetcode-Practice/tree/master/0027-remove-element) |
 | [0217-contains-duplicate](https://github.com/viru9192/Leetcode-Practice/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0283-move-zeroes) |
 | [0474-ones-and-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0474-ones-and-zeroes) |
@@ -311,5 +312,6 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/viru9192/Leetcode-Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/viru9192/Leetcode-Practice/tree/master/0027-remove-element) |
 | [0283-move-zeroes](https://github.com/viru9192/Leetcode-Practice/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
