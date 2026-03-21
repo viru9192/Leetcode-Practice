@@ -1,9 +1,9 @@
 create function getNthHighestSalary(N int) returns int
 begin return (
-    select
+    select 
     salary 
     from (
-        select 
+        select
         salary,
         dense_rank() over(
             order by salary desc
