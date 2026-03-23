@@ -1,13 +1,16 @@
 with top3 as (
     select
-    e.*,
+    e.id,
+    e.name,
+    e.salary,
+    e.departmentid,
     dense_rank() over(
         partition by e.departmentid
         order by e.salary desc
     ) as rnk
     from employee e
 )
-select
+select 
 d.name as Department,
 t.name as Employee,
 t.salary as Salary
