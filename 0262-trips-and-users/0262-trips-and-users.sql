@@ -5,10 +5,10 @@ with can_s as(
     from trips t
     join users c
     on t.client_id = c.users_id
-    and c.banned = 'No' and c.role = 'client'
+        and c.banned = 'No' and c.role = 'client'
     join users d
     on t.driver_id = d.users_id
-    and d.banned = 'No' and d.role = 'driver'
+        and d.banned = 'No' and d.role = 'driver'
     where t.request_at between '2013-10-01' and '2013-10-03'
 )
 select 
