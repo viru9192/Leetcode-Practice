@@ -1,5 +1,5 @@
-select
-m.name
+select 
+m.name 
 from employee e
 join employee m
 on e.managerid = m.id
