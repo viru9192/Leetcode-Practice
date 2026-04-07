@@ -2,7 +2,7 @@ select
 p.product_id,
 round(
     coalesce(
-        sum(u.units * p.price) / sum(u.units), 0
+        sum(p.price * u.units) / sum(u.units), 0
     ), 2
 ) as average_price
 from prices p
