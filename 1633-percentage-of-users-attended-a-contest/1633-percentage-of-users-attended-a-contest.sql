@@ -1,7 +1,7 @@
 select 
 r.contest_id,
 round(
-    count(distinct r.user_id) * 100 / (
+    count(distinct r.user_id) * 100.0 / (
         select 
         count(*)
         from users
