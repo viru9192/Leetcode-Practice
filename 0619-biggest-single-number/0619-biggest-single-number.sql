@@ -1,7 +1,7 @@
-select
+select 
 max(num) as num
 from (
-    select
+    select 
     num
     from mynumbers
     group by num
