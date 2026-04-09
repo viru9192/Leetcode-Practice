@@ -1,4 +1,4 @@
-select
+select 
 c.customer_id
 from customer c
 join product p
