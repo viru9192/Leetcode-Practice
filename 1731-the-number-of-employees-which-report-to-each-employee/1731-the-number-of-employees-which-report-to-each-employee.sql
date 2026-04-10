@@ -1,4 +1,4 @@
-select
+select 
 m.employee_id,
 m.name,
 count(e.employee_id) as reports_count,
