@@ -1,6 +1,6 @@
 select 
 employee_id,
-department_id 
+department_id
 from employee
 where primary_flag = 'Y'
 
