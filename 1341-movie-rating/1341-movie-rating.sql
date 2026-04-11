@@ -12,12 +12,12 @@
 union all
 
 (
-    select
-    m.title as results
+    select 
+    m.title as results 
     from movies m
     join movierating mr
     on m.movie_id = mr.movie_id
-    where year(mr.created_at) = 2020 and month(mr.created_at) = 02
+    where month(mr.created_at) = '02' and year(mr.created_at) = 2020
     group by m.movie_id, m.title
     order by avg(mr.rating) desc, m.title asc
     limit 1
