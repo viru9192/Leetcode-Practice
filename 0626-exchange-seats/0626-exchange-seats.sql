@@ -1,4 +1,4 @@
-select
+select 
 (
     case
         when s1.id % 2 = 1 and s2.id is not null then s1.id + 1
@@ -9,5 +9,5 @@ select
 s1.student
 from seat s1
 left join seat s2
-on s2.id = s1.id + 1
+on s1.id + 1 = s2.id
 order by id;
