@@ -1,4 +1,4 @@
-select
+select 
 max(salary) as SecondHighestSalary
 from employee
 where salary < (
