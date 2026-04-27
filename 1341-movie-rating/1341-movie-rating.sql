@@ -22,4 +22,3 @@ union all
     order by avg(mr.rating) desc, m.title asc
     limit 1
 );
-
