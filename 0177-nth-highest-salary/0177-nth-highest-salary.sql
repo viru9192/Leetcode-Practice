@@ -13,4 +13,4 @@ begin return (
     where rnk = N
     limit 1
 );
-end
+end;
