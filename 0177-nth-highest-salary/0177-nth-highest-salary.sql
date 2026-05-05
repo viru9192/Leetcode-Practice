@@ -3,7 +3,7 @@ begin return (
     select 
     salary 
     from (
-        select
+        select 
         salary,
         dense_rank() over(
             order by salary desc
