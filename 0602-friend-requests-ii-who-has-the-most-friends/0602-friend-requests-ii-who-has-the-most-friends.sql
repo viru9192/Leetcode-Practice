@@ -1,4 +1,4 @@
-with frd as (
+with friend as (
     select 
     requester_id as id
     from requestaccepted
@@ -11,14 +11,14 @@ with frd as (
 ),
 total as (
     select 
-    id, 
+    id,
     count(*) as num
-    from frd
+    from friend
     group by id
 )
 select 
-id, 
+id,
 num
-from total 
+from total
 order by num desc
 limit 1;
