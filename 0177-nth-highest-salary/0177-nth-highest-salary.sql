@@ -4,7 +4,7 @@ begin return (
     salary 
     from (
         select 
-        salary,
+        distinct salary,
         dense_rank() over(
             order by salary desc
         ) as rnk
