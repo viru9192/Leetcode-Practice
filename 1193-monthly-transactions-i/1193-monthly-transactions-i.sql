@@ -1,5 +1,5 @@
 select 
-date_format(trans_date, '%Y-%m') as month,
+date_format(trans_date, '%Y-%m') as 'month',
 country,
 count(*) as trans_count,
 count(
