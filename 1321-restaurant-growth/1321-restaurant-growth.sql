@@ -1,8 +1,8 @@
-with daily_s as (
-    select 
+with daily_a as (
+    select
     visited_on,
     sum(amount) as amount
-    from customer
+    from customer 
     group by visited_on
 )
 select 
@@ -17,6 +17,6 @@ round(
         rows between 6 preceding and current row
     ), 2
 ) as average_amount
-from daily_s
-order by visited_on
+from daily_a
+group by visited_on
 limit 100 offset 6;
