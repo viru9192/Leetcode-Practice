@@ -1,12 +1,12 @@
 select 
 s.user_id,
 round(
-    sum(
-        case
-            when c.action = 'confirmed' then 1
-            else 0
-        end
-    ) / count(*), 2
+    coalesce(
+            count(
+                case
+                    when c.action = 'confirmed' then 1
+                end) * 1 / count(*), 0
+            ), 2
 ) as confirmation_rate
 from signups s
 left join confirmations c
