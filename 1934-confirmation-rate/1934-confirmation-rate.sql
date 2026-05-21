@@ -5,7 +5,7 @@ round(
             count(
                 case
                     when c.action = 'confirmed' then 1
-                end) * 1 / count(*), 0
+                end) * 1.0 / count(*), 0
             ), 2
 ) as confirmation_rate
 from signups s
