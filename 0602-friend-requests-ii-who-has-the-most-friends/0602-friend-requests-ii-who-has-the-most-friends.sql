@@ -5,20 +5,20 @@ with friend as (
 
     union all
 
-    select 
+    select
     accepter_id as id
     from requestaccepted
 ),
 total as (
-    select 
+    select
     id,
-    count(*) as num
+    count(*) as total_frd
     from friend
     group by id
 )
-select 
-id,
-num
+select
+id, 
+total_frd as num
 from total
 order by num desc
 limit 1;
