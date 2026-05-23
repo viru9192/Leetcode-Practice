@@ -1,4 +1,4 @@
-with cumm_w as (
+with last as (
     select 
     person_id,
     person_name,
@@ -7,9 +7,9 @@ with cumm_w as (
     ) as cumm_weight
     from queue
 )
-select 
+select
 person_name
-from cumm_w
+from last
 where cumm_weight <= 1000
 order by cumm_weight desc
 limit 1;
