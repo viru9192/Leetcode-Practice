@@ -1,4 +1,4 @@
-select
+select 
 query_name,
 round(
     avg(
@@ -11,7 +11,7 @@ round(
             when rating < 3 then 1
             else 0
         end
-    ) * 100 / count(*), 2
+    ) * 100.0 / count(*), 2
 ) as poor_query_percentage
 from queries
 group by query_name;
