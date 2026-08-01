@@ -1,6 +1,6 @@
 select 
-eu.unique_id,
-e.name 
+eq.unique_id,
+e.name
 from employees e
-left join employeeuni eu
-on e.id = eu.id;
+left join employeeUNI eq
+on e.id = eq.id;
