@@ -1,9 +1,9 @@
 select 
-max(num) as num 
+max(num) as num
 from (
     select 
     num
-    from Mynumbers
+    from mynumbers
     group by num
     having count(*) = 1
 ) as t;
